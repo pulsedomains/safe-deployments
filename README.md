@@ -9,8 +9,8 @@ For each deployment the address on the different networks and the abi files are 
 To add additional deployments please follow the [deployment steps in the Safe contract repository](https://github.com/safe-global/safe-contracts#deployments).
 
 ## Install
-- npm - `npm i @safe-global/safe-deployments`
-- yarn - `yarn add @safe-global/safe-deployments`
+- npm - `npm i @pnsdomains/safe-deployments`
+- yarn - `yarn add @pnsdomains/safe-deployments`
 
 ## Usage
 
