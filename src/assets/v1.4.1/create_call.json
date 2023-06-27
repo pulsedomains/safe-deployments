@@ -2,8 +2,9 @@
   "defaultAddress": "0x9b35Af71d77eaf8d7e40252370304687390A1A52",
   "released": false,
   "contractName": "CreateCall",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "networkAddresses": {
+    "1": "0x9b35Af71d77eaf8d7e40252370304687390A1A52",
     "5": "0x9b35Af71d77eaf8d7e40252370304687390A1A52"
   },
   "abi": [

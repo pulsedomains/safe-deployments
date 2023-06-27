@@ -1,17 +1,13 @@
 {
-  "defaultAddress": "0xc962E67D9490E154D81181879ddf4CD3b65D2132",
+  "defaultAddress": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762",
   "released": false,
-  "contractName": "Safe",
-  "version": "1.4.0",
+  "contractName": "SafeL2",
+  "version": "1.4.1",
   "networkAddresses": {
-    "5": "0xc962E67D9490E154D81181879ddf4CD3b65D2132"
+    "1": "0x29fcB43b46531BcA003ddC8FCB67FFE91900C762",
+    "5": "0x1eb4681c549d995AbdC4aB189cAbb9f00B508cAb"
   },
   "abi": [
-    {
-      "inputs": [],
-      "stateMutability": "nonpayable",
-      "type": "constructor"
-    },
     {
       "anonymous": false,
       "inputs": [
@@ -184,6 +180,116 @@
         }
       ],
       "name": "RemovedOwner",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "module",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        },
+        {
+          "indexed": false,
+          "internalType": "enum Enum.Operation",
+          "name": "operation",
+          "type": "uint8"
+        }
+      ],
+      "name": "SafeModuleTransaction",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        },
+        {
+          "indexed": false,
+          "internalType": "enum Enum.Operation",
+          "name": "operation",
+          "type": "uint8"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "safeTxGas",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "baseGas",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "gasPrice",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "gasToken",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address payable",
+          "name": "refundReceiver",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "bytes",
+          "name": "signatures",
+          "type": "bytes"
+        },
+        {
+          "indexed": false,
+          "internalType": "bytes",
+          "name": "additionalInfo",
+          "type": "bytes"
+        }
+      ],
+      "name": "SafeMultiSigTransaction",
       "type": "event"
     },
     {
@@ -556,7 +662,7 @@
       "outputs": [
         {
           "internalType": "bool",
-          "name": "success",
+          "name": "",
           "type": "bool"
         }
       ],

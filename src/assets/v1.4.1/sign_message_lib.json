@@ -1,9 +1,10 @@
 {
-  "defaultAddress": "0x58FCe385Ed16beB4BCE49c8DF34c7d6975807520",
+  "defaultAddress": "0xd53cd0aB83D845Ac265BE939c57F53AD838012c9",
   "contractName": "SignMessageLib",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "released": false,
   "networkAddresses": {
+    "1": "0xd53cd0aB83D845Ac265BE939c57F53AD838012c9",
     "5": "0x58FCe385Ed16beB4BCE49c8DF34c7d6975807520"
   },
   "abi": [
